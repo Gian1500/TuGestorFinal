@@ -255,6 +255,7 @@
             this.MaximumSize = new System.Drawing.Size(842, 524);
             this.MinimumSize = new System.Drawing.Size(842, 524);
             this.Name = "FormInventario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inventario";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInv)).EndInit();
             this.panel1.ResumeLayout(false);

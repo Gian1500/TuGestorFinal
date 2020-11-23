@@ -152,7 +152,10 @@
             this.Controls.Add(this.dataGridViewEnvio);
             this.Controls.Add(this.btn_CerrarL);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(877, 479);
+            this.MinimumSize = new System.Drawing.Size(877, 479);
             this.Name = "FormEnvios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Envios";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEnvio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEnvioOrd)).EndInit();

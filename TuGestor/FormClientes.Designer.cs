@@ -208,6 +208,7 @@
             this.MaximumSize = new System.Drawing.Size(844, 509);
             this.MinimumSize = new System.Drawing.Size(844, 509);
             this.Name = "FormClientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agregar Clientes";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCliente)).EndInit();
             this.ResumeLayout(false);

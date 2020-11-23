@@ -53,14 +53,14 @@
             this.txt_pass = new System.Windows.Forms.TextBox();
             this.txt_nick = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.btn_EliminarU = new System.Windows.Forms.Button();
+            this.dataGridViewLogin = new System.Windows.Forms.DataGridView();
             this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.txt_borrarDni = new System.Windows.Forms.TextBox();
             this.txt_borrarPass = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.dataGridViewLogin = new System.Windows.Forms.DataGridView();
-            this.label12 = new System.Windows.Forms.Label();
             this.groupBoxLogin.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLogin)).BeginInit();
@@ -324,10 +324,22 @@
             this.groupBox1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(534, 319);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(328, 144);
+            this.groupBox1.Size = new System.Drawing.Size(344, 162);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ELIMINAR USUARIO";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label12.Location = new System.Drawing.Point(213, 14);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(88, 19);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "Registrados";
             // 
             // btn_EliminarU
             // 
@@ -338,6 +350,14 @@
             this.btn_EliminarU.Text = "Eliminar Usuario";
             this.btn_EliminarU.UseVisualStyleBackColor = true;
             this.btn_EliminarU.Click += new System.EventHandler(this.btn_EliminarU_Click);
+            // 
+            // dataGridViewLogin
+            // 
+            this.dataGridViewLogin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewLogin.Location = new System.Drawing.Point(217, 36);
+            this.dataGridViewLogin.Name = "dataGridViewLogin";
+            this.dataGridViewLogin.Size = new System.Drawing.Size(121, 120);
+            this.dataGridViewLogin.TabIndex = 16;
             // 
             // label13
             // 
@@ -392,26 +412,6 @@
             this.label7.TabIndex = 15;
             this.label7.Text = "Campos obligatorios *";
             // 
-            // dataGridViewLogin
-            // 
-            this.dataGridViewLogin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewLogin.Location = new System.Drawing.Point(217, 36);
-            this.dataGridViewLogin.Name = "dataGridViewLogin";
-            this.dataGridViewLogin.Size = new System.Drawing.Size(107, 102);
-            this.dataGridViewLogin.TabIndex = 16;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label12.Location = new System.Drawing.Point(213, 14);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(88, 19);
-            this.label12.TabIndex = 17;
-            this.label12.Text = "Registrados";
-            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -430,7 +430,8 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(483, 352);
+            this.MaximumSize = new System.Drawing.Size(897, 523);
+            this.MinimumSize = new System.Drawing.Size(897, 523);
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio sesion";

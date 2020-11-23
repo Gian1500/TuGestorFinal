@@ -138,7 +138,6 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "VENTA";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-
             // 
             // btn_Envios
             // 
@@ -185,6 +184,7 @@
             this.MaximumSize = new System.Drawing.Size(816, 489);
             this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "VentanaPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ventana Principal";
             this.ResumeLayout(false);
             this.PerformLayout();
